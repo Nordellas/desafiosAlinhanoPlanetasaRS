@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+}
+
 header{
   padding: 4rem;
   background: lightslategray;
@@ -7,6 +11,11 @@ nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+a{
+  color: unset;
+  text-decoration: none;
 }
 
 ul{
@@ -19,5 +28,6 @@ ul{
 ul li:last-child{
   background-color: black;
   color: aliceblue;
-  padding: 8rem;
+  padding: 1rem;
+  border-radius: 8px;
 }
